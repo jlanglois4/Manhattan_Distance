@@ -8,15 +8,12 @@ public class MPointTest {
     private MPoint mPoint;
 
     @BeforeEach
-    void setUp(){
+    void setUp() {
         mPoint = new MPoint();
     }
 
     @Test
-    void canStartProgram(){
-        
+    void TestMPoint(){
+        mPoint.CalculateManDistance(5,13);
     }
-
-
-
 }
