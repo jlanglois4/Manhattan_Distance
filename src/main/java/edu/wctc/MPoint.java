@@ -2,7 +2,16 @@ package edu.wctc;
 
 public class MPoint {
 
-    public void CalculateManDistance(int mPointOne, int mPointTwo){
+    private final double xCoordinate;
+    private final double yCoordinate;
+
+    public MPoint(double xCoordinate, double yCoordinate) {
+        this.xCoordinate = xCoordinate;
+        this.yCoordinate = yCoordinate;
+    }
+
+    public void CalculateManDistance(){
+
 
     }
 

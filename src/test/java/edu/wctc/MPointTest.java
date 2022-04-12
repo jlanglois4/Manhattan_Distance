@@ -3,17 +3,13 @@ package edu.wctc;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MPointTest {
 
-    private MPoint mPoint;
-
-    @BeforeEach
-    void setUp() {
-        mPoint = new MPoint();
-    }
-
     @Test
-    void TestMPoint(){
-        mPoint.CalculateManDistance(5,13);
+    void CanCreate(){
+        MPoint mPoint = new MPoint(5,10);
     }
+
 }
