@@ -20,11 +20,16 @@ public class MPointTest {
 
     @Test
     void TestManhattenDistance(){
-        assertEquals(37,formula(5,10,10,42));;
+        assertEquals(37,formula(5,10,10,42));
     }
 
     @Test
     void TestManhattenDistanceNegatives(){
-        assertEquals(67,formula(-5,10,10,-42));;
+        assertEquals(67,formula(-5,10,10,-42));
+    }
+
+    @Test
+    void TestManhattenDistanceDoubles(){
+        assertEquals(130.38,formula(-25.14,10.25,62.12,-32.87));
     }
 }
