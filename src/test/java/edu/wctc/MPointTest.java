@@ -18,4 +18,8 @@ public class MPointTest {
         return Math.abs(x2 - x1) + Math.abs(y2 - y1);
     }
 
+    @Test
+    void TestManhattenDistance(){
+        assertEquals(37,formula(5,10,10,42));;
+    }
 }
