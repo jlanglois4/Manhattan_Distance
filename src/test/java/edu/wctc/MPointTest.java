@@ -22,4 +22,9 @@ public class MPointTest {
     void TestManhattenDistance(){
         assertEquals(37,formula(5,10,10,42));;
     }
+
+    @Test
+    void TestManhattenDistanceNegatives(){
+        assertEquals(67,formula(-5,10,10,-42));;
+    }
 }
